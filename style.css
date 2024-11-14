@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3e3e3e;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  background-color: #3e3e3e;
+  height: 80px;
+  width: 100%;
+}
+
+.navbartaek {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #3e3e3e;
+}
+
+.navbartaek a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbartaek a:hover {
+  color: #ff0000;
+}
+
+.hero {
+  position: relative;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  position: absolute;
+}
+
+.buy-now {
+  width: 371px;
+  height: 50px;
+  text-align: center;
+  left: 88px;
+  top: 560px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  background: rgba(255, 0, 0, 0.7);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.div2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.div2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.benefit-section {
+  padding: 50px 0;
+  position: relative;
+  margin-top: 50px;
+}
+
+.benefit-title {
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+
+.benefit-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 50px;
+}
+
+.benefit-card {
+  background: #d9d9d9;
+  border-radius: 15px;
+  padding: 30px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.benefit-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.benefit-card h2 {
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+footer {
+  background-color: #4D4D4D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
